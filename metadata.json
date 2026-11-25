@@ -1,0 +1,6 @@
+{
+  "name": "AuraScan - PDF Scanner and OCR",
+  "description": "Offline, privacy-friendly native Android document scanner, PDF builder, OCR (Latin & Hindi), and photo/signature resizer in Kotlin and Jetpack Compose.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

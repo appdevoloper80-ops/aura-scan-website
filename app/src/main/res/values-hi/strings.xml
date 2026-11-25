@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AuraScan</string>
+    <string name="app_full_name">AuraScan - PDF स्कैनर और OCR</string>
+
+    <!-- Common / Navigation -->
+    <string name="cd_back">वापस जाएं</string>
+    <string name="cd_settings">सेटिंग्स</string>
+    <string name="cd_more_options">%1$s के लिए और विकल्प</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_confirm">पुष्टि करें</string>
+    <string name="action_save">सहेजें</string>
+    <string name="action_rename">नाम बदलें</string>
+    <string name="action_share">शेयर करें</string>
+    <string name="action_save_to_device">डिवाइस में सहेजें</string>
+    <string name="action_delete">हटाएं</string>
+    <string name="action_close_app">ऐप बंद करें</string>
+    <string name="action_unlock_pro">Pro अनलॉक करें</string>
+
+    <!-- Age Gate -->
+    <string name="age_gate_title">आयु सत्यापन</string>
+    <string name="age_gate_message">AuraScan वयस्कों के लिए है। कृपया पुष्टि करें कि आपकी आयु 18 वर्ष या उससे अधिक है।</string>
+    <string name="age_gate_confirm_adult">मेरी उम्र 18 वर्ष या अधिक है</string>
+    <string name="age_gate_under_18">मेरी उम्र 18 वर्ष से कम है</string>
+    <string name="age_gate_blocked_title">केवल वयस्कों के लिए (18+)</string>
+    <string name="age_gate_blocked_message">AuraScan केवल 18 वर्ष और उससे अधिक उम्र के वयस्कों के लिए है। समझने के लिए धन्यवाद। ऐप अब बंद हो जाएगा।</string>
+
+    <!-- Home -->
+    <string name="home_scan_document">दस्तावेज़ स्कैन करें</string>
+    <string name="home_scan_subtitle">ऑटो-क्रॉप, सुधारें और ऑफ़लाइन PDF सहेजें</string>
+    <string name="home_tools_section">टूल्स</string>
+    <string name="tool_images_to_pdf">इमेज से PDF</string>
+    <string name="tool_resizer">फ़ोटो और हस्ताक्षर रीसाइज़र</string>
+    <string name="tool_ocr">टेक्स्ट निकालें (OCR)</string>
+    <string name="home_recent_documents">हाल के दस्तावेज़</string>
+    <string name="home_empty_title">अभी कोई दस्तावेज़ नहीं</string>
+    <string name="home_empty_subtitle">अपना पहला ऑफ़लाइन PDF बनाने के लिए दस्तावेज़ स्कैन करें या इमेज से PDF का उपयोग करें।</string>
+    <string name="cd_document_thumbnail">%1$s का पूर्वावलोकन</string>
+    <string name="page_count_singular">%1$d पृष्ठ</string>
+    <string name="page_count_plural">%1$d पृष्ठ</string>
+    <string name="scan_cancelled">स्कैनिंग रद्द कर दी गई</string>
+    <string name="scan_failed">स्कैनर शुरू नहीं हो सका: %1$s</string>
+    <string name="scan_saving">स्कैन किया गया दस्तावेज़ सहेजा जा रहा है…</string>
+    <string name="scan_saved_error">स्कैन किया गया दस्तावेज़ सहेजा नहीं जा सका</string>
+
+    <!-- Rename & Delete Dialogs -->
+    <string name="rename_dialog_title">दस्तावेज़ का नाम बदलें</string>
+    <string name="rename_field_label">दस्तावेज़ का नाम</string>
+    <string name="rename_empty_error">नाम खाली नहीं हो सकता</string>
+    <string name="delete_dialog_title">दस्तावेज़ हटाएं?</string>
+    <string name="delete_dialog_message">“%1$s” और इसके सभी स्थानीय पृष्ठ इस डिवाइस से स्थायी रूप से हटा दिए जाएंगे।</string>
+    <string name="document_deleted">दस्तावेज़ हटा दिया गया</string>
+    <string name="document_renamed">दस्तावेज़ का नाम बदल दिया गया</string>
+    <string name="saved_to_device">डिवाइस में सहेजा गया</string>
+    <string name="save_failed">फ़ाइल सहेजी नहीं जा सकी: %1$s</string>
+    <string name="share_failed">इस फ़ाइल को शेयर करने के लिए कोई ऐप नहीं मिला</string>
+
+    <!-- Document Screen -->
+    <string name="document_not_found">दस्तावेज़ नहीं मिला</string>
+    <string name="document_page_label">पृष्ठ %1$d / %2$d</string>
+    <string name="document_action_share_pdf">PDF शेयर करें</string>
+    <string name="document_action_save_pdf">PDF डिवाइस में सहेजें</string>
+    <string name="document_action_ocr">टेक्स्ट निकालें (OCR)</string>
+    <string name="cd_document_page">दस्तावेज़ पृष्ठ %1$d</string>
+
+    <!-- OCR Screen -->
+    <string name="ocr_title">टेक्स्ट निकालें (OCR)</string>
+    <string name="ocr_language_label">पहचान लिपि</string>
+    <string name="ocr_lang_latin">लैटिन (अंग्रेज़ी)</string>
+    <string name="ocr_lang_hindi">हिंदी (देवनागरी)</string>
+    <string name="ocr_pick_image">एक इमेज चुनें</string>
+    <string name="ocr_change_image">दूसरी इमेज चुनें</string>
+    <string name="ocr_run">OCR चलाएं</string>
+    <string name="ocr_rerun">OCR फिर से चलाएं</string>
+    <string name="ocr_processing_page">पृष्ठ %1$d / %2$d पहचाना जा रहा है…</string>
+    <string name="ocr_empty_prompt">ऑफ़लाइन टेक्स्ट निकालने के लिए गैलरी से इमेज चुनें और लैटिन या हिंदी चुनें।</string>
+    <string name="ocr_no_text_found">चयनित पृष्ठों में कोई पठनीय टेक्स्ट नहीं मिला।</string>
+    <string name="ocr_error">टेक्स्ट पहचान विफल रही: %1$s</string>
+    <string name="ocr_copy">कॉपी करें</string>
+    <string name="ocr_share_txt">.txt के रूप में शेयर करें</string>
+    <string name="ocr_save_txt">.txt के रूप में सहेजें</string>
+    <string name="ocr_copied">टेक्स्ट क्लिपबोर्ड पर कॉपी हो गया</string>
+    <string name="ocr_unlock_title">सभी पृष्ठ अनलॉक करें</string>
+    <string name="ocr_unlock_description">मुफ़्त योजना प्रति बार %1$d पृष्ठों तक निकालती है (%3$d में से %2$d पृष्ठ संसाधित)। सभी पृष्ठों के लिए Pro अनलॉक करें।</string>
+    <string name="ocr_pro_coming_soon">Pro अनलॉक अगले अपडेट में उपलब्ध होगा।</string>
+
+    <!-- Images to PDF -->
+    <string name="images_to_pdf_title">इमेज से PDF</string>
+    <string name="images_pick_button">इमेज चुनें</string>
+    <string name="images_add_more">और जोड़ें</string>
+    <string name="images_empty_title">जोड़ने के लिए इमेज चुनें</string>
+    <string name="images_empty_subtitle">20 फ़ोटो तक चुनें, क्रम बदलें, पृष्ठ आकार व मार्जिन चुनें और ऑफ़लाइन PDF बनाएं।</string>
+    <string name="images_page_size">पृष्ठ आकार</string>
+    <string name="page_size_a4">A4</string>
+    <string name="page_size_fit">इमेज के अनुसार</string>
+    <string name="images_margin">मार्जिन</string>
+    <string name="margin_none">कोई नहीं</string>
+    <string name="margin_small">कम</string>
+    <string name="margin_medium">मध्यम</string>
+    <string name="images_create_pdf">PDF बनाएं</string>
+    <string name="images_creating_pdf">PDF बन रहा है…</string>
+    <string name="images_pdf_error">PDF नहीं बन सका: %1$s</string>
+    <string name="cd_move_up">इमेज ऊपर ले जाएं</string>
+    <string name="cd_move_down">इमेज नीचे ले जाएं</string>
+    <string name="cd_remove_image">इमेज हटाएं</string>
+    <string name="cd_selected_image">चयनित इमेज %1$d</string>
+
+    <!-- Photo & Signature Resizer -->
+    <string name="resizer_title">फ़ोटो और हस्ताक्षर रीसाइज़र</string>
+    <string name="resizer_pick_image">फ़ोटो या हस्ताक्षर चुनें</string>
+    <string name="resizer_change_image">इमेज बदलें</string>
+    <string name="resizer_crop_step">इमेज क्रॉप करें</string>
+    <string name="resizer_apply_crop">क्रॉप लागू करें</string>
+    <string name="resizer_reset_crop">क्रॉप रीसेट करें</string>
+    <string name="resizer_crop_hint">फ़ोटो या हस्ताक्षर फ़्रेम करने के लिए स्लाइडर समायोजित करें।</string>
+    <string name="resizer_crop_left">बायां</string>
+    <string name="resizer_crop_top">ऊपर</string>
+    <string name="resizer_crop_right">दायां</string>
+    <string name="resizer_crop_bottom">नीचे</string>
+    <string name="resizer_presets_label">प्रीसेट</string>
+    <string name="preset_exam_photo">परीक्षा फ़ोटो (अधिकतम 50 KB, 200 × 230 px)</string>
+    <string name="preset_exam_signature">परीक्षा हस्ताक्षर (अधिकतम 20 KB, 140 × 60 px)</string>
+    <string name="preset_passport_photo">पासपोर्ट फ़ोटो 35 × 45 मिमी (413 × 531 px)</string>
+    <string name="preset_custom">कस्टम</string>
+    <string name="resizer_width_px">चौड़ाई (px)</string>
+    <string name="resizer_height_px">ऊंचाई (px)</string>
+    <string name="resizer_max_kb">अधिकतम आकार (KB)</string>
+    <string name="resizer_keep_aspect">आस्पेक्ट रेशियो बनाए रखें</string>
+    <string name="resizer_process_button">रीसाइज़ और कंप्रेस करें</string>
+    <string name="resizer_processing">JPEG गुणवत्ता अनुकूलित की जा रही है…</string>
+    <string name="resizer_result_title">रीसाइज़ किया गया आउटपुट</string>
+    <string name="resizer_result_stats">%1$s KB  •  %2$d × %3$d px  •  गुणवत्ता %4$d%%</string>
+    <string name="resizer_warning_min_reached">न्यूनतम पिक्सेल तक पहुंच गया; सबसे छोटा आकार %1$s KB है।</string>
+    <string name="resizer_invalid_input">मान्य पिक्सेल आकार और अधिकतम KB दर्ज करें।</string>
+    <string name="resizer_pro_title">Pro सुविधा</string>
+    <string name="resizer_pro_message">कस्टम आकार और 20 KB से कम लक्ष्य के लिए AuraScan Pro आवश्यक है। Pro अनलॉक अगले अपडेट में जुड़ेगा।</string>
+    <string name="cd_resizer_preview">रीसाइज़ की गई इमेज का पूर्वावलोकन</string>
+    <string name="cd_source_preview">मूल इमेज का पूर्वावलोकन</string>
+
+    <!-- Settings -->
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="settings_legal_section">कानूनी और गोपनीयता</string>
+    <string name="settings_privacy_policy">गोपनीयता नीति</string>
+    <string name="settings_terms_of_use">उपयोग की शर्तें</string>
+    <string name="settings_ad_privacy">विज्ञापन गोपनीयता विकल्प</string>
+    <string name="settings_support_section">ऐप और सहायता</string>
+    <string name="settings_rate_app">इस ऐप को रेट करें</string>
+    <string name="settings_contact_support">सहायता से संपर्क करें</string>
+    <string name="settings_app_version">ऐप संस्करण</string>
+    <string name="settings_version_value">%1$s (%2$d)</string>
+    <string name="settings_no_browser">लिंक खोलने के लिए कोई वेब ब्राउज़र नहीं मिला</string>
+    <string name="settings_no_email_app">ईमेल भेजने के लिए कोई ईमेल ऐप नहीं मिला</string>
+    <string name="settings_support_subject">AuraScan सहायता (v%1$s)</string>
+</resources>

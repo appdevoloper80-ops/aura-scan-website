@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Clean document silhouette with folded corner and scan beam -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,26 C31.79,26 30,27.79 30,30 L30,78 C30,80.21 31.79,82 34,82 L74,82 C76.21,82 78,80.21 78,78 L78,42 L62,26 Z" />
+    <path
+        android:fillColor="#B2EBF2"
+        android:pathData="M62,26 L62,42 L78,42 Z" />
+    <path
+        android:fillColor="#0D6E7A"
+        android:pathData="M39,47 H69 V51 H39 Z" />
+    <path
+        android:fillColor="#0D6E7A"
+        android:pathData="M39,56 H64 V60 H39 Z" />
+    <path
+        android:fillColor="#26C6DA"
+        android:pathData="M24,63 H84 V67 H24 Z" />
+</vector>

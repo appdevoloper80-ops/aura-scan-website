@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AuraScan</string>
+    <string name="app_full_name">AuraScan - PDF Scanner and OCR</string>
+
+    <!-- Common / Navigation -->
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_more_options">More options for %1$s</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_save">Save</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_share">Share</string>
+    <string name="action_save_to_device">Save to device</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_close_app">Close app</string>
+    <string name="action_unlock_pro">Unlock Pro</string>
+
+    <!-- Age Gate -->
+    <string name="age_gate_title">Age Verification</string>
+    <string name="age_gate_message">AuraScan is for adults. Please confirm you are 18 or older.</string>
+    <string name="age_gate_confirm_adult">I am 18 or older</string>
+    <string name="age_gate_under_18">I am under 18</string>
+    <string name="age_gate_blocked_title">Adults Only (18+)</string>
+    <string name="age_gate_blocked_message">AuraScan is intended for adults aged 18 and older. Thank you for understanding. The app will now close.</string>
+
+    <!-- Home -->
+    <string name="home_scan_document">Scan document</string>
+    <string name="home_scan_subtitle">Auto-crop, enhance &amp; save offline PDF</string>
+    <string name="home_tools_section">Tools</string>
+    <string name="tool_images_to_pdf">Images to PDF</string>
+    <string name="tool_resizer">Photo and Signature Resizer</string>
+    <string name="tool_ocr">Extract text (OCR)</string>
+    <string name="home_recent_documents">Recent documents</string>
+    <string name="home_empty_title">No documents yet</string>
+    <string name="home_empty_subtitle">Tap Scan document or use Images to PDF to create your first offline PDF.</string>
+    <string name="cd_document_thumbnail">Preview of %1$s</string>
+    <string name="page_count_singular">%1$d page</string>
+    <string name="page_count_plural">%1$d pages</string>
+    <string name="scan_cancelled">Scanning cancelled</string>
+    <string name="scan_failed">Unable to start scanner: %1$s</string>
+    <string name="scan_saving">Saving scanned document…</string>
+    <string name="scan_saved_error">Could not save scanned document</string>
+
+    <!-- Rename & Delete Dialogs -->
+    <string name="rename_dialog_title">Rename document</string>
+    <string name="rename_field_label">Document name</string>
+    <string name="rename_empty_error">Name cannot be empty</string>
+    <string name="delete_dialog_title">Delete document?</string>
+    <string name="delete_dialog_message">“%1$s” and all of its local pages will be permanently deleted from this device.</string>
+    <string name="document_deleted">Document deleted</string>
+    <string name="document_renamed">Document renamed</string>
+    <string name="saved_to_device">Saved to device</string>
+    <string name="save_failed">Could not save file: %1$s</string>
+    <string name="share_failed">No app found to share this file</string>
+
+    <!-- Document Screen -->
+    <string name="document_not_found">Document not found</string>
+    <string name="document_page_label">Page %1$d of %2$d</string>
+    <string name="document_action_share_pdf">Share PDF</string>
+    <string name="document_action_save_pdf">Save PDF to device</string>
+    <string name="document_action_ocr">Extract text (OCR)</string>
+    <string name="cd_document_page">Document page %1$d</string>
+
+    <!-- OCR Screen -->
+    <string name="ocr_title">Extract text (OCR)</string>
+    <string name="ocr_language_label">Recognition script</string>
+    <string name="ocr_lang_latin">Latin</string>
+    <string name="ocr_lang_hindi">Hindi (Devanagari)</string>
+    <string name="ocr_pick_image">Pick an image</string>
+    <string name="ocr_change_image">Pick another image</string>
+    <string name="ocr_run">Run OCR</string>
+    <string name="ocr_rerun">Re-run OCR</string>
+    <string name="ocr_processing_page">Recognizing page %1$d of %2$d…</string>
+    <string name="ocr_empty_prompt">Select an image from your gallery and choose Latin or Hindi to extract text offline.</string>
+    <string name="ocr_no_text_found">No readable text was detected in the selected pages.</string>
+    <string name="ocr_error">Text recognition failed: %1$s</string>
+    <string name="ocr_copy">Copy</string>
+    <string name="ocr_share_txt">Share as .txt</string>
+    <string name="ocr_save_txt">Save as .txt</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_unlock_title">Unlock all pages</string>
+    <string name="ocr_unlock_description">Free plan extracts up to %1$d pages per run (%2$d of %3$d pages processed). Unlock Pro to extract all pages.</string>
+    <string name="ocr_pro_coming_soon">Pro unlock will be available in the next update.</string>
+
+    <!-- Images to PDF -->
+    <string name="images_to_pdf_title">Images to PDF</string>
+    <string name="images_pick_button">Pick images</string>
+    <string name="images_add_more">Add more</string>
+    <string name="images_empty_title">Select images to combine</string>
+    <string name="images_empty_subtitle">Pick up to 20 photos, reorder them, choose page size and margin, and export an offline PDF.</string>
+    <string name="images_page_size">Page size</string>
+    <string name="page_size_a4">A4</string>
+    <string name="page_size_fit">Fit to image</string>
+    <string name="images_margin">Margin</string>
+    <string name="margin_none">None</string>
+    <string name="margin_small">Small</string>
+    <string name="margin_medium">Medium</string>
+    <string name="images_create_pdf">Create PDF</string>
+    <string name="images_creating_pdf">Building PDF…</string>
+    <string name="images_pdf_error">Could not build PDF: %1$s</string>
+    <string name="cd_move_up">Move image up</string>
+    <string name="cd_move_down">Move image down</string>
+    <string name="cd_remove_image">Remove image</string>
+    <string name="cd_selected_image">Selected image %1$d</string>
+
+    <!-- Photo & Signature Resizer -->
+    <string name="resizer_title">Photo and Signature Resizer</string>
+    <string name="resizer_pick_image">Pick photo or signature</string>
+    <string name="resizer_change_image">Change image</string>
+    <string name="resizer_crop_step">Crop image</string>
+    <string name="resizer_apply_crop">Apply crop</string>
+    <string name="resizer_reset_crop">Reset crop</string>
+    <string name="resizer_crop_hint">Drag sliders or choose an aspect ratio to frame your photo or signature.</string>
+    <string name="resizer_crop_left">Left</string>
+    <string name="resizer_crop_top">Top</string>
+    <string name="resizer_crop_right">Right</string>
+    <string name="resizer_crop_bottom">Bottom</string>
+    <string name="resizer_presets_label">Presets</string>
+    <string name="preset_exam_photo">Exam photo (max 50 KB, 200 × 230 px)</string>
+    <string name="preset_exam_signature">Exam signature (max 20 KB, 140 × 60 px)</string>
+    <string name="preset_passport_photo">Passport photo 35 × 45 mm (413 × 531 px)</string>
+    <string name="preset_custom">Custom</string>
+    <string name="resizer_width_px">Width (px)</string>
+    <string name="resizer_height_px">Height (px)</string>
+    <string name="resizer_max_kb">Max size (KB)</string>
+    <string name="resizer_keep_aspect">Keep aspect ratio</string>
+    <string name="resizer_process_button">Resize &amp; compress</string>
+    <string name="resizer_processing">Optimizing JPEG quality…</string>
+    <string name="resizer_result_title">Resized output</string>
+    <string name="resizer_result_stats">%1$s KB  •  %2$d × %3$d px  •  Quality %4$d%%</string>
+    <string name="resizer_warning_min_reached">Reached minimum dimensions; smallest size is %1$s KB.</string>
+    <string name="resizer_invalid_input">Enter valid positive pixel dimensions and max KB.</string>
+    <string name="resizer_pro_title">Pro Feature</string>
+    <string name="resizer_pro_message">Custom dimensions and targets below 20 KB require AuraScan Pro. Unlock Pro will connect here in the next update.</string>
+    <string name="cd_resizer_preview">Resized image preview</string>
+    <string name="cd_source_preview">Source image preview</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_legal_section">Legal &amp; Privacy</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_terms_of_use">Terms of Use</string>
+    <string name="settings_ad_privacy">Ad privacy choices</string>
+    <string name="settings_support_section">App &amp; Support</string>
+    <string name="settings_rate_app">Rate this app</string>
+    <string name="settings_contact_support">Contact support</string>
+    <string name="settings_app_version">App version</string>
+    <string name="settings_version_value">%1$s (%2$d)</string>
+    <string name="settings_no_browser">No web browser installed to open link</string>
+    <string name="settings_no_email_app">No email app installed to contact support</string>
+    <string name="settings_support_subject">AuraScan Support (v%1$s)</string>
+</resources>
